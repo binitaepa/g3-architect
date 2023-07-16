@@ -8,6 +8,10 @@
 .text-light-gray{
     color: #727272;
 }
+.section-title{
+    font-size: 2.8rem;
+    color: #131313;
+}
 .btn-primary{
     border-radius: 8px;
     color: #FFF;
@@ -33,6 +37,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
     gap: 1.5rem;
+    margin-left: 300px;
 }
 .teams-content{
     padding-right: 70px;
@@ -54,10 +59,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    font-size: 2.8rem;
-    color: #131313;
-}
+
 nav  > ul{
     display: flex;
 }
@@ -85,6 +87,28 @@ nav li a{
 .banner img{
     margin-top: 20px;
     width: 100%;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 30px 30px;
+
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+.facts-card-container .card-starts{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 @media screen and (max-width: 576px) {
     header{
